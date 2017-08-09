@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kana-tv" name="Kana TV" version="0.0.1" provider-name="Dawit">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.video">
+    <summary lang="en_gb">Watch Kana TV</summary>
+    <description lang="en_gb">Kana TV is an Ethiopian general entertainment, free-to-air, satellite TV channel bringing international standard programming to the Ethiopian population. They broadcast exclusively in Amharic to ensure that their programs have the broadest relevance. This addon simply allows you (the users) to stream content from the kanatelevision.com website from the comfort of your Kodi media center.</description>
+    <disclaimer lang="en_gb"> I don't own or host any of the content streamed using this addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon></icon>
+        <fanart></fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
